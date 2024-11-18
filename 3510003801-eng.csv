@@ -1,0 +1,55 @@
+﻿"Youth courts, number of cases and charges by type of decision 1 2 3 4"
+"Frequency: Annual"
+"Table: 35-10-0038-01 (formerly CANSIM 252-0064)"
+"Release date: 2024-10-03"
+"Geography: Canada, Province or territory"
+""
+""
+
+"Geography 5","Canada 10 11",,,,,,,,,
+"Offences 6 7","Total offences",,,,,,,,,
+"Age of accused 8","Total, age of accused",,,,,,,,,
+"Sex of accused 9","Total, sex of accused",,,,,,,,,
+"Charge and case","Total cases 2 7",,,,,,,,,
+"Type of decision 12","2013 / 2014","2014 / 2015","2015 / 2016","2016 / 2017","2017 / 2018","2018 / 2019","2019 / 2020","2020 / 2021","2021 / 2022","2022 / 2023"
+,"Number",,,,,,,,,
+"Total decisions","40,574r","33,679r","31,721r","29,684r","27,901r","24,621r","22,432r","14,928r","11,393r","11,967"
+"Transferred to adult court 13","0r","1r","0r","0r","0r","0r","0r","1r","0r","0"
+"Guilty 14","22,784r","19,103r","17,578r","15,798r","14,181r","12,128r","10,839r","6,593r","4,792r","4,933"
+,"Percentage",,,,,,,,,
+"Percentage guilty","56r","57r","55r","53r","51r","49r","48r","44r","42r","41"
+,"Number",,,,,,,,,
+"Acquitted 15 16","667r","504r","470r","492r","437r","458r","447r","320r","141r","163"
+"Stayed or withdrawn 15 17","16,942r","13,888r","13,512r","13,210r","13,131r","11,896r","10,969r","7,907r","6,357r","6,786"
+"Other decisions 18","181r","183r","161r","184r","152r","139r","177r","107r","103r","85"
+
+Symbol legend:
+r, revised
+
+
+
+
+Footnotes:
+1,"This product is based on data collected from the youth component of the Integrated Criminal Court Survey (ICCS). The ICCS is administered by the Canadian Centre for Justice and Community Safety Statistics (Statistics Canada) in collaboration with provincial and territorial government departments responsible for criminal courts in Canada. The survey collects statistical information on adult and youth court cases involving Criminal Code and other federal statute offences. Data contained in this table represent the youth court portion of the survey. The individuals involved are persons aged 12 to 17 years at the time of the offence. Data are based on a fiscal year (April 1 through March 31)."
+2,"A case is one or more charges against an accused person or company, which were processed by the courts at the same time (date of offence, date of initiation, date of first appearance, or date of decision/sentencing), and received a final decision. All data have been processed using this case definition. The definition attempts to reflect court processing. It is unique to the Integrated Criminal Court Survey (ICCS) and was developed to ensure a common standard across all jurisdictions. Therefore, comparisons with other data sources using a different case definition should be made with caution. The case definition changed for the 2006/2007 release of data. The former definition (used in releases prior to October 2007) combined all charges against the same person disposed of in court on the same day into a case. Consequently, comparisons should not be made with data products released before that time."
+3,"Cases are counted according to the fiscal year in which they are completed. Each year, the Integrated Criminal Court Survey (ICCS) database is considered final at the end of March for the production of court statistics pertaining to the preceding fiscal year. These counts do not include cases that were pending a final decision at the end of the reference period. If a final decision is reached in the next fiscal year, then these cases are included in the completed case counts for that fiscal year. However, if a one-year period of inactivity elapses, then these cases are deemed complete and the originally published counts for the previous fiscal year are subsequently updated and reported in the next year's release of the data. Historically, updates to a previous year's counts have resulted in an increase of about 2%."
+4,"Table 35-10-0038 (formerly CANSIM table 252-0064) replaces CANSIM tables 252-0047, 252-0048, and 252-0049 which have been archived."
+5,"There are many factors that influence variations between jurisdictions. These may include Crown and police charging practices, offence distributions, and various forms of diversion programs. Therefore, comparisons between jurisdictions should be interpreted with caution."
+6,"The Common Offence Classification (COC) is a standard grouping of offences (for example, major assault, impaired driving) involving 33 offence categories. This offence framework permits users to compare analytical results across the different databases, and to examine data from different sectors of the justice system using a single set of offence categories. Each common offence category is constructed by aggregating individual Uniform Crime Reporting offence categories into the larger common categories."
+7,"A case that has more than one charge is represented by the charge with the "most serious offence" (MSO). The most serious offence is selected using the following rules. First, court decisions are considered and the charge with the "most serious decision" (MSD) is selected. Court decisions for each charge in a case are ranked from most to least serious as follows: (1) guilty, (2) guilty of a lesser offence, (3) acquitted, (4) stay of proceeding, (5) withdrawn, dismissed or discharged, (6) not criminally responsible, (7) other, and (8) transfer of court jurisdiction. Second, in cases where two or more charges result in the same MSD (for example, guilty), Criminal Code sanctions are considered. The charge with the most serious offence type is selected according to an offence seriousness scale, based on actual sentences handed down by courts in Canada. (The offence seriousness scale is calculated using data from both the adult and youth components of the Integrated Criminal Court Survey.) Each offence type is ranked by looking at (1) the proportion of guilty charges where custody was imposed and (2) the average (mean) length of custody for the specific type of offence. These values are multiplied together to arrive at the final seriousness ranking for each type of offence. If, after looking at the offence seriousness scale, two or more charges remain tied then information about the sentence type and duration of the sentence are considered (for example, custody and length of custody, then probation and length of probation, etcetera)."
+8,"Age is the age of the accused at the time of the offence."
+9,"Information on the sex of the accused is not available from Manitoba as of 2005/2006."
+10,"All youth courts in Canada have reported to the survey since the 1991/1992 fiscal year."
+11,"Integrated Criminal Court Survey (ICCS) data for Quebec were not available for 2021/2022 and 2022/2023."
+12,"A decision is a judgment made by the court. The decision categories are as follows: Guilty; Acquittal; Stay, Withdrawn, Dismissed; and Other decisions."
+13,"The Youth Criminal Justice Act (YCJA) does not provide for the transfer of youth to adult court. Rather, in accordance with strict criteria, a convicted youth may receive an adult sentence. The YCJA came into effect on April 1, 2003."
+14,"Guilty findings include guilty of the charged offence, of an included offence, of an attempt of the charged offence, or of an attempt of an included offence. This category also includes guilty pleas, and cases where an absolute or conditional discharge has been imposed."
+15," In Newfoundland and Labrador, the terms "acquittal" and "dismissed" are used interchangeably, resulting in an under-count of the number of acquittals in that province."
+16,"Acquittal means that the accused has been found not guilty of the charges presented before the court."
+17,"This category includes stays, withdrawals, dismissals and discharges at preliminary inquiry as well as court referrals to alternative or extrajudicial measures and restorative justice programs. These decisions all refer to the court stopping criminal proceedings against the accused."
+18,"Other decisions include final decisions of found not criminally responsible and waived out of province or territory. This category also includes any order where a guilty decision was not recorded, the court's acceptance of a special plea, cases which raise Charter arguments and cases where the accused was found unfit to stand trial."
+
+
+
+"How to cite: Statistics Canada. Table 35-10-0038-01  Youth courts, number of cases and charges by type of decision"
+https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=3510003801
