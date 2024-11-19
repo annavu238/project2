@@ -10,8 +10,8 @@ data = pd.read_csv('https://raw.githubusercontent.com/annavu238/project2/refs/he
 st.table(data.head())
 
 plt.figure(figsize=(12,6))
-sns.countplot(hue='Gender',x='Workout_Type',data=data)
-plt.title('Workout Type by Gender')
+sns.countplot(hue='Sex',x='Type of exercise',data=data)
+plt.title('exercise preference by male and female')
 plt.show()
 
 
