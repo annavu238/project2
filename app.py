@@ -8,10 +8,11 @@ import plotly.express as px
 
 data = pd.read_csv('https://raw.githubusercontent.com/annavu238/project2/refs/heads/main/gym_members_exercise_tracking.csv', on_bad_lines='skip')
 st.table(data.head())
-# Analyze the percentage change in suicide rates since 2010 by year
-both_sexes = data[data['sex'] == 'BTSX']
-both_sexes['year'] = both_sexes['year'].astype(int)
-both_sexes = both_sexes.sort_values(by='year')
+
+plt.figure(figsize=(12,6))
+sns.countplot(hue='Gender',x='Workout_Type',data=data)
+plt.title('Workout Type by Gender')
+plt.show()
 
 # Plotting the average suicide rate change over the years
 plt.figure(figsize=(10, 6))
