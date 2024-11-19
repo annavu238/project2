@@ -14,13 +14,4 @@ sns.countplot(hue='Gender',x='Workout_Type',data=data)
 plt.title('Workout Type by Gender')
 plt.show()
 
-# Plotting the average suicide rate change over the years
-plt.figure(figsize=(10, 6))
-plt.plot(both_sexes['year'], both_sexes['Suicide Rate % change since 2010'], marker='o', linestyle='-', color='b')
-plt.title('Average Suicide Rate Change Over the Years')
-plt.xlabel('Year')
-plt.ylabel('Suicide Rate % Change Since 2010')
-plt.grid(True)
-plt.xticks(both_sexes['year'], rotation=45)
-plt.tight_layout()
-plt.show()
+
