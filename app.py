@@ -9,15 +9,17 @@ import plotly.express as px
 data = pd.read_csv('https://raw.githubusercontent.com/annavu238/project2/refs/heads/main/social-media-impact-on-suicide-rates.csv', on_bad_lines='skip')
 st.table(data.head())
 # Analyze the percentage change in suicide rates since 2010 by year
-suicide_rate_change = data.groupby('year')['Suicide Rate % change since 2010'].mean().reset_index()
+both_sexes = data[data['sex'] == 'BTSX']
+both_sexes['year'] = both_sexes['year'].astype(int)
+both_sexes = both_sexes.sort_values(by='year')
 
 # Plotting the average suicide rate change over the years
-plt.figure(figsize=(10, 5))
-plt.plot(suicide_rate_change['year'], suicide_rate_change['Suicide Rate % change since 2010'], marker='o')
-plt.title('Average Suicide Rate Change Since 2010')
+plt.figure(figsize=(10, 6))
+plt.plot(both_sexes['year'], both_sexes['Suicide Rate % change since 2010'], marker='o', linestyle='-', color='b')
+plt.title('Average Suicide Rate Change Over the Years')
 plt.xlabel('Year')
-plt.ylabel('Suicide Rate % Change')
-plt.grid()
-plt.xticks(rotation=45)
+plt.ylabel('Suicide Rate % Change Since 2010')
+plt.grid(True)
+plt.xticks(both_sexes['year'], rotation=45)
 plt.tight_layout()
 plt.show()
